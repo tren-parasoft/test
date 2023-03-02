@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" version="1.0" timestamp="2023">
+  <file name="/ATM/ATM/ATM.cxx">
+    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" rule="Constructor does not initialize members: 'myCurrentAccount'" ruleset="INIT-06" priority="1"/>
+  </file>
+  <file name="/ATM/ATM/ATM.cxx">
+    <violation beginline="10" endline="10" begincolumn="48" endcolumn="49" rule="The parameter 'password' of function 'viewAccount' is passed by value" ruleset="OPT-14" priority="3"/>
+  </file>
+  <file name="/ATM/ATM/Bank.cxx">
+    <violation beginline="15" endline="15" begincolumn="42" endcolumn="43" rule="The parameter 'password' of function 'getAccount' is passed by value" ruleset="OPT-14" priority="3"/>
+  </file>
+  <file name="/ATM/ATM/include/Account.hxx">
+    <violation beginline="16" endline="16" begincolumn="8" endcolumn="9" rule="Constructor 'Account' allowing conversion should be made explicit" ruleset="CODSTA-CPP-04" priority="1"/>
+  </file>
+  <file name="/ATM/ATM/include/Bank.hxx">
+    <violation beginline="16" endline="16" begincolumn="44" endcolumn="45" rule="The parameter 'password' of function 'getAccount' is passed by value" ruleset="OPT-14" priority="3"/>
+  </file>
+  <file name="/ATM/ATM/include/BaseDisplay.hxx">
+    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" rule="Class 'BaseDisplay' has virtual functions without a virtual destructor" ruleset="OOP-23" priority="2"/>
+  </file>
+</pmd>
