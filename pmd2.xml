@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" version="1.0" timestamp="2023">
   <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" rule="INIT-06" ruleset="All member variables should be initialized in constructor" priority="1">Constructor does not initialize members: 'myCurrentAccount'</violation>
+    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" rule="All member variables should be initialized in constructor" ruleset="INIT-06" priority="1">Constructor does not initialize members: 'myCurrentAccount'</violation>
   </file>
   <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="10" endline="10" begincolumn="48" endcolumn="49" rule="OPT-14" ruleset="Pass objects by reference instead of by value" priority="3">The parameter 'password' of function 'viewAccount' is passed by value</violation>
+    <violation beginline="10" endline="10" begincolumn="48" endcolumn="49" rule="Pass objects by reference instead of by value" ruleset="OPT-14" priority="3">The parameter 'password' of function 'viewAccount' is passed by value</violation>
   </file>
   <file name="/ATM/ATM/Bank.cxx">
-    <violation beginline="15" endline="15" begincolumn="42" endcolumn="43" rule="OPT-14" ruleset="Pass objects by reference instead of by value" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
+    <violation beginline="15" endline="15" begincolumn="42" endcolumn="43" rule="Pass objects by reference instead of by value" ruleset="OPT-14" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
   </file>
   <file name="/ATM/ATM/include/Account.hxx">
-    <violation beginline="16" endline="16" begincolumn="8" endcolumn="9" rule="CODSTA-CPP-04" ruleset="Constructors allowing for conversion should be made explicit" priority="1">Constructor 'Account' allowing conversion should be made explicit</violation>
+    <violation beginline="16" endline="16" begincolumn="8" endcolumn="9" rule="Constructors allowing for conversion should be made explicit" ruleset="CODSTA-CPP-04" priority="1">Constructor 'Account' allowing conversion should be made explicit</violation>
   </file>
   <file name="/ATM/ATM/include/Bank.hxx">
-    <violation beginline="16" endline="16" begincolumn="44" endcolumn="45" rule="OPT-14" ruleset="Pass objects by reference instead of by value" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
+    <violation beginline="16" endline="16" begincolumn="44" endcolumn="45" rule="Pass objects by reference instead of by value" ruleset="OPT-14" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
   </file>
   <file name="/ATM/ATM/include/BaseDisplay.hxx">
-    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" rule="OOP-23" ruleset="If a class has virtual functions it shall have a virtual destructor" priority="2">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
+    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" rule="If a class has virtual functions it shall have a virtual destructor" ruleset="OOP-23" priority="2">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
   </file>
 </pmd>
