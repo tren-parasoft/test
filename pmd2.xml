@@ -1,23 +1,1032 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" version="1.0" timestamp="2023">
-  <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" rule="INIT-06" ruleset="Initialization" priority="1">Constructor does not initialize members: 'myCurrentAccount'</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
   </file>
-  <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="10" endline="10" begincolumn="48" endcolumn="49" rule="OPT-14" ruleset="Optimization" priority="3">The parameter 'password' of function 'viewAccount' is passed by value</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="7" endline="7" begincolumn="17" endcolumn="30" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'AccountNumber'.</violation>
   </file>
-  <file name="/ATM/ATM/Bank.cxx">
-    <violation beginline="15" endline="15" begincolumn="42" endcolumn="43" rule="OPT-14" ruleset="Optimization" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="11" endline="11" begincolumn="15" endcolumn="28" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AccountNumber'.</violation>
   </file>
-  <file name="/ATM/ATM/include/Account.hxx">
-    <violation beginline="16" endline="16" begincolumn="8" endcolumn="9" rule="CODSTA-CPP-04" ruleset="Coding Conventions for C++" priority="1">Constructor 'Account' allowing conversion should be made explicit</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="16" endline="16" begincolumn="36" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Create'.</violation>
   </file>
-  <file name="/ATM/ATM/include/Bank.hxx">
-    <violation beginline="16" endline="16" begincolumn="44" endcolumn="45" rule="OPT-14" ruleset="Optimization" priority="3">The parameter 'password' of function 'getAccount' is passed by value</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="22" endline="22" begincolumn="33" endcolumn="36" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'AccountNumber AccountNumber.Create(string str)', validate parameter 'str' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
   </file>
-  <file name="/ATM/ATM/include/BaseDisplay.hxx">
-    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" rule="OOP-23" ruleset="Object Oriented" priority="2">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="24" endline="24" begincolumn="31" endcolumn="43" rule="CT.ECLSII" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'int' to smaller type 'byte' does not cause data truncation</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="24" endline="24" begincolumn="31" endcolumn="43" rule="CWE.197.ECLSII" ruleset="CWE-197: Numeric Truncation Error" priority="4">Ensure that the explicit conversion from type 'int' to smaller type 'byte' does not cause data truncation</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="28" endline="28" begincolumn="46" endcolumn="70" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Wrong account number: " in member 'Create' in class 'AccountNumber'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="39" endline="39" begincolumn="31" endcolumn="37" rule="CS.PB.PUO" ruleset="Possible Bugs" priority="2">Do not use unary + operator</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="39" endline="39" begincolumn="31" endcolumn="37" rule="CWE.480.PUO" ruleset="CWE-480: Use of Incorrect Operator" priority="2">Do not use unary + operator</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="54" endline="54" begincolumn="29" endcolumn="35" rule="OPU.CPNEQ" ruleset="Operator Overloading Usage Guidelines" priority="1">Change Equals() implementation to match a standard pattern. Use: if (obj == null) { return false; }</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="54" endline="54" begincolumn="29" endcolumn="35" rule="OPU.CPTEQ" ruleset="Operator Overloading Usage Guidelines" priority="2">Change Equals() implementation to match a standard pattern. Use: if (this.GetType() != obj.GetType()) { return false; }</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="57" endline="57" begincolumn="16" endcolumn="66" rule="CS.PB.BITBOOL" ruleset="Possible Bugs" priority="2">Change bitwise operator to logical operator in method 'Equals'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="57" endline="57" begincolumn="33" endcolumn="39" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'bool AccountNumber.Equals(object obj)', validate parameter 'obj' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="61" endline="62" begincolumn="12" endcolumn="-1" rule="CS.PFEL" ruleset="C# only" priority="3">Prefer using foreach loop in body of 'Equals'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="71" endline="71" begincolumn="36" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Create'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="75" endline="75" begincolumn="21" endcolumn="22" rule="CS.PB.IVFLC" ruleset="Possible Bugs" priority="2">Use variable 'j' in 'for' loop condition.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="75" endline="75" begincolumn="21" endcolumn="22" rule="CS.PB.IVFLI" ruleset="Possible Bugs" priority="2">Modify variable 'j' value in 'for' loop incrementer.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="75" endline="75" begincolumn="21" endcolumn="22" rule="CWE.835.IVFLC" ruleset="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')" priority="2">Use variable 'j' in 'for' loop condition.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="75" endline="75" begincolumn="21" endcolumn="22" rule="CWE.835.IVFLI" ruleset="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')" priority="2">Modify variable 'j' value in 'for' loop incrementer.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="78" endline="78" begincolumn="33" endcolumn="38" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'AccountNumber AccountNumber.Create(char[] array)', validate parameter 'array' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="80" endline="80" begincolumn="29" endcolumn="40" rule="CT.ECLSII" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'int' to smaller type 'byte' does not cause data truncation</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="80" endline="80" begincolumn="29" endcolumn="40" rule="CWE.197.ECLSII" ruleset="CWE-197: Numeric Truncation Error" priority="4">Ensure that the explicit conversion from type 'int' to smaller type 'byte' does not cause data truncation</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/AccountNumber.cs">
+    <violation beginline="84" endline="84" begincolumn="46" endcolumn="70" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Wrong account number: " in member 'Create' in class 'AccountNumber'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="3" endline="4" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="8" endline="8" begincolumn="17" endcolumn="21" rule="ROSLYN.MSNA.NAMING.CA1724" ruleset="Naming" priority="2">The type name Bank conflicts in whole or in part with the namespace name 'Parasoft.Dottest.Examples.Bank'. Change either name to eliminate the conflict.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="8" endline="8" begincolumn="17" endcolumn="21" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'Bank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="12" endline="12" begincolumn="94" endcolumn="95" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="14" endline="14" begincolumn="87" endcolumn="88" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="16" endline="16" begincolumn="108" endcolumn="109" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="18" endline="18" begincolumn="118" endcolumn="119" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="22" endline="22" begincolumn="20" endcolumn="31" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="24" endline="24" begincolumn="28" endcolumn="32" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'void Bank.AddCurrency(CurrencyInfo info)', validate parameter 'info' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="27" endline="27" begincolumn="20" endcolumn="27" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddUser'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="29" endline="29" begincolumn="25" endcolumn="33" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'void Bank.AddUser(BankUser bankUser)', validate parameter 'bankUser' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="32" endline="32" begincolumn="28" endcolumn="39" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="37" endline="37" begincolumn="20" endcolumn="30" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddAccount'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="40" endline="40" begincolumn="39" endcolumn="46" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'void Bank.AddAccount(BankAccount account)', validate parameter 'account' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="48" endline="48" begincolumn="0" endcolumn="1" rule="BRM.SFT" ruleset="Better Readability and Maintainability" priority="3">Change tabs to spaces indentation.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="49" endline="49" begincolumn="0" endcolumn="1" rule="BRM.SFT" ruleset="Better Readability and Maintainability" priority="3">Change tabs to spaces indentation.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="49" endline="49" begincolumn="14" endcolumn="25" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddAccount2'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="52" endline="52" begincolumn="39" endcolumn="46" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'void Bank.AddAccount2(BankAccount account)', validate parameter 'account' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="61" endline="61" begincolumn="24" endcolumn="38" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetUserByLogin'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="68" endline="68" begincolumn="34" endcolumn="45" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetAccounts'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="73" endline="73" begincolumn="19" endcolumn="35" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CountUSDAccounts'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="84" endline="86" begincolumn="16" endcolumn="17" rule="CS.PB.CEB" ruleset="Possible Bugs" priority="1">Fill or remove empty statement placed in method 'CountUSDAccounts'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="87" endline="87" begincolumn="16" endcolumn="22" rule="CS.PB.ANIL" ruleset="Possible Bugs" priority="2">Statement 'return' makes loop non-iterable. Consider either removing that statement or remove the loop.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="92" endline="92" begincolumn="22" endcolumn="52" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AverageAccountsNumWithCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="97" endline="97" begincolumn="89" endcolumn="90" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="101" endline="101" begincolumn="53" endcolumn="65" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'double Bank.AverageAccountsNumWithCurrency(CurrencyInfo currencyInfo)', validate parameter 'currencyInfo' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="111" endline="111" begincolumn="20" endcolumn="28" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Transfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="111" endline="111" begincolumn="87" endcolumn="88" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="118" endline="118" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="130" endline="130" begincolumn="89" endcolumn="90" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="132" endline="132" begincolumn="85" endcolumn="86" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="138" endline="138" begincolumn="20" endcolumn="36" rule="ROSLYN.MSNA.DESIGN.CA1021" ruleset="Design" priority="2">Avoid 'out' parameters as they are not designed for general audience</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="138" endline="138" begincolumn="20" endcolumn="36" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'ComputeTotalCash'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="143" endline="143" begincolumn="12" endcolumn="14" rule="CS.BRM.CCB" ruleset="Better Readability and Maintainability" priority="3">Enclose 'if' body with curly braces.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="145" endline="146" begincolumn="12" endcolumn="-1" rule="CS.PB.WIBS" ruleset="Possible Bugs" priority="2">Indent the statement or add body to 'if' branch above.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="149" endline="149" begincolumn="85" endcolumn="86" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Bank.cs">
+    <violation beginline="154" endline="154" begincolumn="107" endcolumn="108" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="2" endline="3" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="7" endline="7" begincolumn="17" endcolumn="28" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'BankAccount'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="15" endline="15" begincolumn="45" endcolumn="58" rule="ROSLYN.MSNA.USAGE.CA2211" ruleset="Usage" priority="3">Non-constant fields should not be visible</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="15" endline="15" begincolumn="45" endcolumn="58" rule="SEC.ASNRF" ruleset="Security Inspection" priority="4">consider making static field GlobalHistory readonly</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="15" endline="15" begincolumn="88" endcolumn="89" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="17" endline="17" begincolumn="15" endcolumn="26" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'BankAccount'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="17" endline="17" begincolumn="81" endcolumn="82" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="20" endline="20" begincolumn="28" endcolumn="35" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'BankAccount.BankAccount(BankUser owner, Currency balance, AccountNumber number)', validate parameter 'balance' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="29" endline="29" begincolumn="85" endcolumn="86" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="38" endline="38" begincolumn="20" endcolumn="28" rule="ROSLYN.MSNA.PERFORMANCE.CA1822" ruleset="Performance" priority="3">Member 'Transfer' does not access instance data and can be marked as static</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="38" endline="38" begincolumn="20" endcolumn="28" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Transfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="38" endline="38" begincolumn="20" endcolumn="28" rule="PB.EMPTYMETHODS" ruleset="Possible Bugs" priority="3">Avoid empty methods</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankAccount.cs">
+    <violation beginline="43" endline="43" begincolumn="20" endcolumn="30" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddHistory'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="2" endline="3" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="6" endline="6" begincolumn="17" endcolumn="25" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'BankUser'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="8" endline="8" begincolumn="120" endcolumn="121" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="16" endline="16" begincolumn="15" endcolumn="23" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'BankUser'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="16" endline="16" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/BankUser.cs">
+    <violation beginline="26" endline="26" begincolumn="20" endcolumn="30" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CheckEmail'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="3" endline="4" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="7" endline="7" begincolumn="17" endcolumn="42" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'CurrencyExchangeConverter'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="7" endline="7" begincolumn="17" endcolumn="42" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'CurrencyExchangeConverter'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="9" endline="9" begincolumn="15" endcolumn="40" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CurrencyExchangeConverter'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="14" endline="14" begincolumn="96" endcolumn="97" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="17" endline="17" begincolumn="20" endcolumn="28" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddRatio'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="22" endline="22" begincolumn="24" endcolumn="31" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Convert'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="24" endline="24" begincolumn="16" endcolumn="21" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency CurrencyExchangeConverter.Convert(Currency input, CurrencyInfo target)', validate parameter 'input' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="43" endline="44" begincolumn="58" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="43" endline="43" begincolumn="58" endcolumn="94" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="43" endline="43" begincolumn="58" endcolumn="94" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="43" endline="43" begincolumn="58" endcolumn="94" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="43" endline="43" begincolumn="94" endcolumn="95" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="48" endline="48" begincolumn="84" endcolumn="85" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="52" endline="52" begincolumn="22" endcolumn="80" rule="ROSLYN.MSNA.USAGE.CA2208" ruleset="Usage" priority="3">Method ConvertFromMainCurrency passes 'Input is null, cannot convert' as the paramName argument to a ArgumentNullException constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="52" endline="52" begincolumn="48" endcolumn="79" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Input is null, cannot convert" in member 'ConvertFromMainCurrency' in class 'CurrencyExchangeConverter'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="52" endline="52" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="61" endline="62" begincolumn="58" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="61" endline="61" begincolumn="58" endcolumn="82" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="61" endline="61" begincolumn="58" endcolumn="82" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="61" endline="61" begincolumn="58" endcolumn="82" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Single' to type 'Decimal' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="61" endline="61" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs">
+    <violation beginline="66" endline="67" begincolumn="48" endcolumn="-1" rule="CS.CMUG.PRU.FSPP" ruleset="Property Usage" priority="4">Follow the standard accessor pattern for property Ratios in class CurrencyExchangeConverter</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="5" endline="6" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="9" endline="10" begincolumn="11" endcolumn="-1" rule="CS.OOM.MI" ruleset="Metrics" priority="1">Class 'ExampleBank' has a Maintainability Index of 69.066.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="9" endline="9" begincolumn="17" endcolumn="28" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="15" endline="16" begincolumn="27" endcolumn="-1" rule="CS.MLC" ruleset="C# only" priority="3">Reduce the number of lines in method 'CreateExampleBank' to be less than 50 from 64.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="15" endline="15" begincolumn="27" endcolumn="44" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CreateExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="19" endline="19" begincolumn="46" endcolumn="51" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "USD" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="20" endline="20" begincolumn="46" endcolumn="51" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="21" endline="21" begincolumn="46" endcolumn="51" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="22" endline="22" begincolumn="46" endcolumn="51" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "PLN" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="22" endline="22" begincolumn="53" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "zł" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="23" endline="23" begincolumn="46" endcolumn="51" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ISK" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="23" endline="23" begincolumn="53" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "kr" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="25" endline="25" begincolumn="42" endcolumn="48" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "John" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="25" endline="25" begincolumn="50" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "White" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="25" endline="25" begincolumn="59" endcolumn="67" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "jwhite" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="25" endline="25" begincolumn="69" endcolumn="77" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "jwhite" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="26" endline="26" begincolumn="42" endcolumn="50" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Angela" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="26" endline="26" begincolumn="52" endcolumn="59" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Smith" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="26" endline="26" begincolumn="61" endcolumn="69" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "asmith" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="26" endline="26" begincolumn="71" endcolumn="79" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "asmith" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="26" endline="26" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="27" endline="27" begincolumn="42" endcolumn="49" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Kenta" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="27" endline="27" begincolumn="51" endcolumn="59" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Suzuki" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="27" endline="27" begincolumn="61" endcolumn="70" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ksuzuki" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="27" endline="27" begincolumn="72" endcolumn="81" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ksuzuki" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="27" endline="27" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="33" endline="33" begincolumn="107" endcolumn="112" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "USD" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="33" endline="33" begincolumn="160" endcolumn="161" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="34" endline="34" begincolumn="106" endcolumn="111" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="34" endline="34" begincolumn="158" endcolumn="159" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="35" endline="35" begincolumn="107" endcolumn="112" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="35" endline="35" begincolumn="159" endcolumn="160" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="36" endline="36" begincolumn="105" endcolumn="110" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ISK" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="36" endline="36" begincolumn="157" endcolumn="158" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="38" endline="38" begincolumn="108" endcolumn="113" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="38" endline="38" begincolumn="160" endcolumn="161" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="39" endline="39" begincolumn="107" endcolumn="112" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="39" endline="39" begincolumn="159" endcolumn="160" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="41" endline="41" begincolumn="75" endcolumn="80" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "USD" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="41" endline="41" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="43" endline="43" begincolumn="52" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="44" endline="44" begincolumn="52" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="45" endline="45" begincolumn="52" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ISK" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="46" endline="46" begincolumn="52" endcolumn="57" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "PLN" in member 'CreateExampleBank' in class 'ExampleBank'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="55" endline="55" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="59" endline="59" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="63" endline="63" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="67" endline="67" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="71" endline="71" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ExampleBank.cs">
+    <violation beginline="75" endline="75" begincolumn="91" endcolumn="92" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs">
+    <violation beginline="4" endline="5" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Transactions' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs">
+    <violation beginline="8" endline="8" begincolumn="14" endcolumn="38" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'IInterBankTransferSystem'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs">
+    <violation beginline="10" endline="10" begincolumn="13" endcolumn="28" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'EnqueueTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="7" endline="7" begincolumn="10" endcolumn="25" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'ReportGenerator'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="7" endline="7" begincolumn="10" endcolumn="25" rule="ROSLYN.MSNA.DESIGN.CA1001" ruleset="Design" priority="4">Type 'ReportGenerator' owns disposable field(s) '_writer' but is not disposable</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="7" endline="7" begincolumn="10" endcolumn="25" rule="ROSLYN.MSNA.PERFORMANCE.CA1812" ruleset="Performance" priority="2">ReportGenerator is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static members, make it static (Shared in Visual Basic).</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="9" endline="9" begincolumn="38" endcolumn="45" rule="IFD.IDDR" ruleset="Implementing Finalize and Dispose" priority="4">Consider implementing 'System.IDisposable' in type 'ReportGenerator' due to disposable field '_writer'</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="11" endline="11" begincolumn="104" endcolumn="105" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="13" endline="13" begincolumn="15" endcolumn="30" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'ReportGenerator'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="19" endline="19" begincolumn="20" endcolumn="27" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddUser'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="24" endline="24" begincolumn="95" endcolumn="96" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="25" endline="25" begincolumn="34" endcolumn="102" rule="ROSLYN.MSNA.USAGE.CA2241" ruleset="Usage" priority="3">Provide correct arguments to formatting methods</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="25" endline="25" begincolumn="34" endcolumn="102" rule="ROSLYN.MSNA.GLOBALIZATION.CA1305" ruleset="Globalization" priority="4">The behavior of 'string.Format(string, object)' could vary based on the current user's locale settings. Replace this call in 'ReportGenerator.AddUser(BankUser)' with a call to 'string.Format(IFormatProvider, string, params object[])'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="25" endline="25" begincolumn="34" endcolumn="102" rule="PB.CFF" ruleset="Possible Bugs" priority="1">Adjust the string.Format call which expects 2 arguments to format but is invoked with 1 argument. The mismatch will result in the System.FormatException during runtime.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="25" endline="25" begincolumn="103" endcolumn="104" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="34" endline="34" begincolumn="20" endcolumn="27" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'AddInfo'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="40" endline="40" begincolumn="19" endcolumn="26" rule="CS.PB.NACC" ruleset="Possible Bugs" priority="2">Make type 'Comment' accessible or remove if unused</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="40" endline="40" begincolumn="19" endcolumn="26" rule="ROSLYN.MSNA.PERFORMANCE.CA1812" ruleset="Performance" priority="2">Comment is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static members, make it static (Shared in Visual Basic).</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="49" endline="49" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs">
+    <violation beginline="50" endline="50" begincolumn="86" endcolumn="87" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="6" endline="6" begincolumn="26" endcolumn="34" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'Currency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="17" endline="17" begincolumn="22" endcolumn="38" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetValueWithSign'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="19" endline="19" begincolumn="19" endcolumn="98" rule="ROSLYN.MSNA.GLOBALIZATION.CA1305" ruleset="Globalization" priority="4">The behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings. Replace this call in 'Currency.GetValueWithSign(CultureInfo)' with a call to 'string.Format(IFormatProvider, string, params object[])'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="19" endline="19" begincolumn="33" endcolumn="45" rule="CS.BRM.ETK" ruleset="Better Readability and Maintainability" priority="4">Use 'this' keyword to access 'CurrencyInfo' member</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="19" endline="19" begincolumn="98" endcolumn="99" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="22" endline="22" begincolumn="39" endcolumn="40" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for '+'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="22" endline="22" begincolumn="39" endcolumn="40" rule="CLS.NOOO" ruleset="CLS Compliance" priority="3">Do not use operator overloading if you want to be CLS compliant </violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="24" endline="24" begincolumn="16" endcolumn="18" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency Currency.operator +(Currency c1, Currency c2)', validate parameter 'c1' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="24" endline="24" begincolumn="35" endcolumn="37" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency Currency.operator +(Currency c1, Currency c2)', validate parameter 'c2' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="30" endline="30" begincolumn="48" endcolumn="81" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Cannot add different curr[...]" in member 'operator' in class 'Currency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="30" endline="30" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="34" endline="34" begincolumn="40" endcolumn="41" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for '-'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="34" endline="34" begincolumn="40" endcolumn="41" rule="CLS.NOOO" ruleset="CLS Compliance" priority="3">Do not use operator overloading if you want to be CLS compliant </violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="36" endline="36" begincolumn="16" endcolumn="18" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency Currency.operator -(Currency c1, Currency c2)', validate parameter 'c1' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="36" endline="36" begincolumn="35" endcolumn="37" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency Currency.operator -(Currency c1, Currency c2)', validate parameter 'c2' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="42" endline="42" begincolumn="48" endcolumn="81" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Cannot add different curr[...]" in member 'operator' in class 'Currency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="42" endline="42" begincolumn="82" endcolumn="83" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="46" endline="46" begincolumn="20" endcolumn="26" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'IsZero'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="48" endline="49" begincolumn="23" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="48" endline="48" begincolumn="23" endcolumn="53" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Double' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="48" endline="48" begincolumn="23" endcolumn="53" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Double' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="48" endline="48" begincolumn="23" endcolumn="53" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Double' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="49" endline="49" begincolumn="20" endcolumn="26" rule="PB.DNCF" ruleset="Possible Bugs" priority="2">Replace equality comparison of floating-point types to comparison which handles floating-point uncertainty.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="52" endline="52" begincolumn="32" endcolumn="47" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetDecimalValue'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="52" endline="52" begincolumn="32" endcolumn="47" rule="CMUG.MU.VALRETURN" ruleset="Method Usage" priority="3">method/property GetDecimalValue returns a value type</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="54" endline="54" begincolumn="36" endcolumn="39" rule="ROSLYN.MSNA.USAGE.CA2225" ruleset="Usage" priority="2">Mark Add as public because it is a friendly alternate for operator op_Addition</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="56" endline="56" begincolumn="36" endcolumn="44" rule="ROSLYN.MSNA.USAGE.CA2225" ruleset="Usage" priority="2">Mark Subtract as public because it is a friendly alternate for operator op_Subtraction</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="58" endline="58" begincolumn="31" endcolumn="39" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetValue'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="60" endline="60" begincolumn="29" endcolumn="35" rule="OPU.CPTEQ" ruleset="Operator Overloading Usage Guidelines" priority="2">Change Equals() implementation to match a standard pattern. Use: if (this.GetType() != obj.GetType()) { return false; }</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/Currency.cs">
+    <violation beginline="60" endline="60" begincolumn="29" endcolumn="35" rule="OPU.CPNEQ" ruleset="Operator Overloading Usage Guidelines" priority="1">Change Equals() implementation to match a standard pattern. Use: if (obj == null) { return false; }</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs">
+    <violation beginline="3" endline="3" begincolumn="17" endcolumn="29" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'CurrencyInfo'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs">
+    <violation beginline="11" endline="11" begincolumn="15" endcolumn="27" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CurrencyInfo'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs">
+    <violation beginline="15" endline="15" begincolumn="27" endcolumn="29" rule="CS.BRM.ES" ruleset="Better Readability and Maintainability" priority="3">Use string.Empty instead of empty quotation: "".</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="5" endline="6" begincolumn="0" endcolumn="-1" rule="CS.CDD.DUPU" ruleset="Code Duplication Detection" priority="3">This using directive is already defined, you can remove it.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="5" endline="6" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using System.Collections.Generic' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="9" endline="9" begincolumn="24" endcolumn="40" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'CurrencyProvider'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="9" endline="9" begincolumn="24" endcolumn="40" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="11" endline="11" begincolumn="31" endcolumn="38" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetZero'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="13" endline="13" begincolumn="19" endcolumn="41" rule="ROSLYN.MSNA.GLOBALIZATION.CA1304" ruleset="Globalization" priority="4">The behavior of 'CurrencyProvider.GetCurrency(string, CurrencyInfo)' could vary based on the current user's locale settings. Replace this call in 'CurrencyProvider.GetZero(CurrencyInfo)' with a call to 'CurrencyProvider.GetCurrency(string, CurrencyInfo, CultureInfo)'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="16" endline="16" begincolumn="31" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="21" endline="21" begincolumn="31" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="21" endline="21" begincolumn="95" endcolumn="96" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="23" endline="23" begincolumn="12" endcolumn="18" rule="CS.PB.DEFSWITCH" ruleset="Possible Bugs" priority="2">Provide 'default' for 'switch' statement</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="23" endline="23" begincolumn="20" endcolumn="24" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency CurrencyProvider.GetCurrency(string value, CurrencyInfo info, CultureInfo culture)', validate parameter 'info' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="25" endline="25" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "USD" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="26" endline="26" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="27" endline="27" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="28" endline="28" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "PLN" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="30" endline="30" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ISK" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="32" endline="32" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "HUF" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="38" endline="38" begincolumn="31" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetCurrency'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="40" endline="40" begincolumn="12" endcolumn="18" rule="CS.PB.DEFSWITCH" ruleset="Possible Bugs" priority="2">Provide 'default' for 'switch' statement</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="40" endline="40" begincolumn="20" endcolumn="24" rule="ROSLYN.MSNA.DESIGN.CA1062" ruleset="Design" priority="2">In externally visible method 'Currency CurrencyProvider.GetCurrency(decimal value, CurrencyInfo info)', validate parameter 'info' is non-null before using it. If appropriate, throw an ArgumentNullException when the argument is null or add a Code Contract precondition asserting non-null argument.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="42" endline="42" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "USD" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="43" endline="43" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "JPY" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="44" endline="44" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "EUR" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="45" endline="45" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "PLN" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="47" endline="47" begincolumn="21" endcolumn="26" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "ISK" in member 'GetCurrency' in class 'CurrencyProvider'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="53" endline="53" begincolumn="41" endcolumn="46" rule="CMUG.MU.AUPM" ruleset="Method Usage" priority="2">Private method 'Parse' is unused. Call it or remove dead code.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="53" endline="53" begincolumn="81" endcolumn="82" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="55" endline="55" begincolumn="26" endcolumn="49" rule="ROSLYN.MSNA.GLOBALIZATION.CA1305" ruleset="Globalization" priority="4">The behavior of 'decimal.Parse(string)' could vary based on the current user's locale settings. Replace this call in 'CurrencyProvider.Parse(string, CurrencyInfo)' with a call to 'decimal.Parse(string, IFormatProvider)'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="57" endline="57" begincolumn="20" endcolumn="28" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="57" endline="57" begincolumn="20" endcolumn="28" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="57" endline="57" begincolumn="20" endcolumn="28" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="58" endline="59" begincolumn="20" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="58" endline="58" begincolumn="20" endcolumn="36" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="58" endline="58" begincolumn="20" endcolumn="36" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="58" endline="58" begincolumn="20" endcolumn="36" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="60" endline="60" begincolumn="18" endcolumn="20" rule="CS.PB.VTNV" ruleset="Possible Bugs" priority="1">Remove value type comparison. Expression is always true.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs">
+    <violation beginline="60" endline="60" begincolumn="31" endcolumn="33" rule="CS.PB.VTNV" ruleset="Possible Bugs" priority="1">Remove value type comparison. Expression is always true.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="9" endline="9" begincolumn="10" endcolumn="27" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'CurrencyWithCents'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="14" endline="14" begincolumn="15" endcolumn="32" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CurrencyWithCents'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="14" endline="14" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="21" endline="21" begincolumn="40" endcolumn="45" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Parse'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="21" endline="21" begincolumn="96" endcolumn="97" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="24" endline="24" begincolumn="16" endcolumn="21" rule="CS.NG.VAR.PNCFV" ruleset="Variables Naming" priority="3">Rename local variable Units to units in order to use camelCase.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="24" endline="24" begincolumn="24" endcolumn="35" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="24" endline="24" begincolumn="24" endcolumn="35" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="24" endline="24" begincolumn="24" endcolumn="35" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="25" endline="26" begincolumn="24" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="25" endline="25" begincolumn="24" endcolumn="43" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="25" endline="25" begincolumn="24" endcolumn="43" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="25" endline="25" begincolumn="24" endcolumn="43" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="34" endline="34" begincolumn="40" endcolumn="51" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'FromDecimal'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="34" endline="34" begincolumn="84" endcolumn="85" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="41" endcolumn="52" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="41" endcolumn="52" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="41" endcolumn="52" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="37" begincolumn="55" endcolumn="-1" rule="CS.SC" ruleset="C# only" priority="5">Cast simple names or literals only.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="55" endcolumn="73" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="55" endcolumn="73" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="55" endcolumn="73" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="36" endline="36" begincolumn="87" endcolumn="88" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="41" endline="41" begincolumn="19" endcolumn="124" rule="ROSLYN.MSNA.GLOBALIZATION.CA1305" ruleset="Globalization" priority="4">The behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings. Replace this call in 'CurrencyWithCents.ToString()' with a call to 'string.Format(IFormatProvider, string, params object[])'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="41" endline="41" begincolumn="71" endcolumn="88" rule="ROSLYN.MSNA.GLOBALIZATION.CA1305" ruleset="Globalization" priority="4">The behavior of 'int.ToString()' could vary based on the current user's locale settings. Replace this call in 'CurrencyWithCents.ToString()' with a call to 'int.ToString(IFormatProvider)'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="41" endline="41" begincolumn="124" endcolumn="125" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="44" endline="44" begincolumn="32" endcolumn="47" rule="CMUG.MU.VALRETURN" ruleset="Method Usage" priority="3">method/property GetDecimalValue returns a value type</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="52" endline="52" begincolumn="92" endcolumn="93" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs">
+    <violation beginline="58" endline="58" begincolumn="102" endcolumn="103" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="5" endline="5" begincolumn="10" endcolumn="29" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'CurrencyWithNoCents'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="9" endline="9" begincolumn="15" endcolumn="34" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'CurrencyWithNoCents'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="9" endline="9" begincolumn="92" endcolumn="93" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="14" endline="14" begincolumn="42" endcolumn="47" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Parse'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="14" endline="14" begincolumn="98" endcolumn="99" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="20" endline="20" begincolumn="42" endcolumn="53" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'FromDecimal'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="20" endline="20" begincolumn="86" endcolumn="87" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="22" endline="22" begincolumn="43" endcolumn="53" rule="OWASP2019.API7.ECLTS" ruleset="API7-Security Misconfiguration" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="22" endline="22" begincolumn="43" endcolumn="53" rule="CT.ECLTS" ruleset="Casting Types Guidelines" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="22" endline="22" begincolumn="43" endcolumn="53" rule="CWE.681.ECLTS" ruleset="CWE-681: Incorrect Conversion between Numeric Types" priority="4">Ensure that the explicit conversion from type 'Decimal' to type 'Int32' does not cause data loss or unexpected results</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="25" endline="25" begincolumn="32" endcolumn="47" rule="CMUG.MU.VALRETURN" ruleset="Method Usage" priority="3">method/property GetDecimalValue returns a value type</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="33" endline="33" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs">
+    <violation beginline="39" endline="39" begincolumn="80" endcolumn="81" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="2" endline="3" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="6" endline="6" begincolumn="10" endcolumn="26" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'ExternalTransfer'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="8" endline="8" begincolumn="15" endcolumn="31" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'ExternalTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="8" endline="8" begincolumn="84" endcolumn="85" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="12" endline="14" begincolumn="12" endcolumn="13" rule="CS.PB.CEB" ruleset="Possible Bugs" priority="1">Fill or remove empty statement placed in constructor 'ExternalTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="19" endline="19" begincolumn="15" endcolumn="19" rule="CWE.546.TODO" ruleset="CWE-546: Suspicious Comment" priority="2">Complete implementation: TODO: check the balance before transfering money out</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="19" endline="19" begincolumn="15" endcolumn="19" rule="PB.II.TODO" ruleset="Incomplete Implementation" priority="2">Complete implementation: TODO: check the balance before transfering money out</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs">
+    <violation beginline="25" endline="25" begincolumn="19" endcolumn="38" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "External Transfer" in member 'GetKind' in class 'ExternalTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="2" endline="3" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="6" endline="6" begincolumn="10" endcolumn="27" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'IncommingTransfer'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'IncommingTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="10" endline="10" begincolumn="121" endcolumn="122" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="23" endline="23" begincolumn="19" endcolumn="39" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Incomming Transfer" in member 'GetKind' in class 'IncommingTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs">
+    <violation beginline="28" endline="28" begincolumn="89" endcolumn="90" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="4" endline="5" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="8" endline="8" begincolumn="10" endcolumn="26" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'OutgoingTransfer'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="10" endline="10" begincolumn="15" endcolumn="31" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'OutgoingTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="10" endline="10" begincolumn="97" endcolumn="98" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="19" endline="19" begincolumn="86" endcolumn="87" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs">
+    <violation beginline="24" endline="24" begincolumn="19" endcolumn="38" rule="CS.INTER.ITT" ruleset="Internationalization" priority="3">Internationalize string "Outgoing Transfer" in member 'GetKind' in class 'OutgoingTransfer'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="2" endline="3" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="6" endline="6" begincolumn="26" endcolumn="41" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'TransactionBase'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="6" endline="6" begincolumn="26" endcolumn="41" rule="ROSLYN.MSNA.DESIGN.CA1012" ruleset="Design" priority="2">Abstract type 'TransactionBase' should not have public constructors</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="6" endline="6" begincolumn="26" endcolumn="41" rule="BRM.CMT.TSC" ruleset="Commentaries" priority="4">Types should have comments, provide one for 'TransactionBase'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="10" endline="10" begincolumn="44" endcolumn="54" rule="ROSLYN.MSNA.DESIGN.CA1051" ruleset="Design" priority="4">Do not declare visible instance fields</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="10" endline="10" begincolumn="44" endcolumn="54" rule="SEC.APTIF" ruleset="Security Inspection" priority="4">Avoid protected instance field  (_converter)</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="14" endline="14" begincolumn="15" endcolumn="30" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'TransactionBase'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="14" endline="14" begincolumn="116" endcolumn="117" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="22" endline="22" begincolumn="20" endcolumn="25" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'Apply'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="28" endline="28" begincolumn="12" endcolumn="16" rule="CS.TRS.LCB" ruleset="Threads &amp; Synchronization" priority="3">Enclose 'lock' body with curly braces.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="30" endline="30" begincolumn="16" endcolumn="18" rule="CS.BRM.CCB" ruleset="Better Readability and Maintainability" priority="3">Enclose 'if' body with curly braces.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="31" endline="32" begincolumn="16" endcolumn="-1" rule="CS.PB.WIBS" ruleset="Possible Bugs" priority="2">Indent the statement or add body to 'if' branch above.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="31" endline="31" begincolumn="101" endcolumn="102" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="34" endline="35" begincolumn="12" endcolumn="-1" rule="CS.TRS.LEB" ruleset="Threads &amp; Synchronization" priority="1">Fill or remove empty lock statement placed in method 'Apply'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="39" endline="39" begincolumn="31" endcolumn="38" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetKind'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="50" endline="50" begincolumn="32" endcolumn="41" rule="ROSLYN.MSNA.NAMING.CA1711" ruleset="Naming" priority="4">Either replace the suffix 'Impl' in member name 'ApplyImpl' with the suggested alternate 'Core' or remove the suffix completely</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="52" endline="52" begincolumn="33" endcolumn="42" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetAmount'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs">
+    <violation beginline="54" endline="54" begincolumn="33" endcolumn="51" rule="BRM.CMT.MSC" ruleset="Commentaries" priority="4">Members should have comments, provide one for 'GetConvertedAmount'.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs">
+    <violation beginline="1" endline="2" begincolumn="-1" endcolumn="-1" rule="BRM.SFH" ruleset="Better Readability and Maintainability" priority="3">Appropriate header was found neither at the beginning nor at the end of file.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs">
+    <violation beginline="4" endline="5" begincolumn="0" endcolumn="-1" rule="CS.USO" ruleset="C# only" priority="4">Using directive 'using Parasoft.Dottest.Examples.Bank.Money' is out of order.</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs">
+    <violation beginline="8" endline="8" begincolumn="19" endcolumn="38" rule="BRM.LONGNAMES" ruleset="Better Readability and Maintainability" priority="4">'TransferTransaction'  is too long</violation>
+  </file>
+  <file name="BankExample.NET/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs">
+    <violation beginline="12" endline="12" begincolumn="140" endcolumn="141" rule="BRM.MLL" ruleset="Better Readability and Maintainability" priority="3">Line length exceeds 80 columns.</violation>
   </file>
 </pmd>
-
-
