@@ -19,3 +19,4 @@
     <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" rule="OOP-23" ruleset="Object Oriented" priority="2">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
   </file>
 </pmd>
+
