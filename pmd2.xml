@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0">
   <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" priority="1" rule="INIT-06" ruleset="Initialization">Constructor does not initialize members: 'myCurrentAccount'</violation>
-  </file>
-  <file name="/ATM/ATM/Bank.cxx">
-    <violation beginline="15" endline="15" begincolumn="42" endcolumn="43" priority="3" rule="OPT-14" ruleset="Optimization">The parameter 'password' of function 'getAccount' is passed by value</violation>
-  </file>
-  <file name="/ATM/ATM/include/Account.hxx">
-    <violation beginline="16" endline="16" begincolumn="8" endcolumn="9" priority="1" rule="CODSTA-CPP-04" ruleset="Coding Conventions for C++">Constructor 'Account' allowing conversion should be made explicit</violation>
-  </file>
-  <file name="/ATM/ATM/include/Bank.hxx">
-    <violation beginline="16" endline="16" begincolumn="44" endcolumn="45" priority="3" rule="OPT-14" ruleset="Optimization">The parameter 'password' of function 'getAccount' is passed by value</violation>
+    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" priority="1" rule="INIT-06" ruleset="Initialization" package="">Constructor does not initialize members: 'myCurrentAccount'</violation>
   </file>
   <file name="/ATM/ATM/include/BaseDisplay.hxx">
-    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" priority="2" rule="OOP-23" ruleset="Object Oriented">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
+    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" priority="2" rule="OOP-23" ruleset="Object Oriented" package="">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
   </file>
+  <suppressedviolation filename="/ATM/ATM/ATM.cxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'viewAccount' is passed by value"/>
+  <suppressedviolation filename="/ATM/ATM/Bank.cxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'getAccount' is passed by value"/>
+  <suppressedviolation filename="/ATM/ATM/include/Account.hxx" suppressiontype="Coding Conventions for C++" msg="Constructor 'Account' allowing conversion should be made explicit"/>
+  <suppressedviolation filename="/ATM/ATM/include/Bank.hxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'getAccount' is passed by value"/>
 </pmd>
