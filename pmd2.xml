@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0">
-  <file name="/ATM/ATM/ATM.cxx">
-    <violation beginline="4" endline="4" begincolumn="5" endcolumn="6" priority="1" rule="INIT-06" ruleset="Initialization" package="">Constructor does not initialize members: 'myCurrentAccount'</violation>
+<pmd>
+  <file name="/com.parasoft:parabank/src/main/java/com/parasoft/bookstore/BookStoreDB.java">
+    <violation beginline="85" endline="85" begincolumn="4" endcolumn="5" priority="1" rule="BD.RES.LEAKS" ruleset="Resources" package="com.parasoft.bookstore">JDBC 结果集未关闭: stmt.resultSet()
+-BookStoreDB.java:61 String query = "SELECT DISTINCT " +
+-BookStoreDB.java:75 titlePart.toLowerCase() +"%' AND " +
+-BookStoreDB.java:61 String query = "SELECT DISTINCT " +
+-BookStoreDB.java:80 BookStoreDB db = getDBInstance();
+-BookStoreDB.java:81 Statement stmt = db.getConnection().createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+-指向资源分配的位置
+ BookStoreDB.java:82 stmt.executeQuery(query)***分配的资源变量: stmt.resultSet(), stmt.executeQuery(query)
+-BookStoreDB.java:82 Book[] books= getByTitleLike(stmt.executeQuery(query), titlePart);***BookStoreDB.getByTitleLike() 抛出 SQLException
+-指向已分配资源丢失的位置
+ BookStoreDB.java:85 }***分配的资源变量: stmt.resultSet()</violation>
   </file>
-  <file name="/ATM/ATM/include/BaseDisplay.hxx">
-    <violation beginline="4" endline="4" begincolumn="6" endcolumn="7" priority="2" rule="OOP-23" ruleset="Object Oriented" package="">Class 'BaseDisplay' has virtual functions without a virtual destructor</violation>
-  </file>
-  <suppressedviolation filename="/ATM/ATM/ATM.cxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'viewAccount' is passed by value"/>
-  <suppressedviolation filename="/ATM/ATM/Bank.cxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'getAccount' is passed by value"/>
-  <suppressedviolation filename="/ATM/ATM/include/Account.hxx" suppressiontype="Coding Conventions for C++" msg="Constructor 'Account' allowing conversion should be made explicit"/>
-  <suppressedviolation filename="/ATM/ATM/include/Bank.hxx" suppressiontype="Optimization" msg="The parameter 'password' of function 'getAccount' is passed by value"/>
 </pmd>
